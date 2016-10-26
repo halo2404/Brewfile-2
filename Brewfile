@@ -19,7 +19,6 @@ brew autoconf
 brew awscli
 brew bash-completion
 brew curl
-brew docker
 brew doxygen
 brew freetype
 brew gdbm
