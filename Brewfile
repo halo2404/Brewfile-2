@@ -64,7 +64,6 @@ brew brew-file
 appstore 682658836 GarageBand (10.1.2)
 appstore 409183694 Keynote (7.0)
 appstore 539883307 LINE (4.10.0)
-appstore 972572948 Money Pro Free (1.5.2)
 appstore 409203825 Numbers (4.0)
 appstore 409201541 Pages (6.0)
 appstore 1003160018 Quip (4.8.15)
