@@ -59,7 +59,7 @@ brew wget
 brew xz
 
 tap homebrew/php
-brew php70
+brew php70 --with-thread-safety
 brew php70-xdebug
 
 tap rcmdnk/file
