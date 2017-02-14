@@ -5,27 +5,26 @@ tap caskroom/cask
 cask jet
 
 tap homebrew/completions
-brew cargo-completion
-brew docker-completion
-brew docker-compose-completion
-brew rails-completion
-brew rake-completion
-brew ruby-completion
-brew rustc-completion
 
 tap homebrew/core
 brew ansible
 brew autoconf
 brew awscli
 brew bash-completion
+brew cargo-completion
+brew chromedriver
 brew curl
+brew docker-completion
+brew docker-compose-completion
 brew doxygen
 brew freetype
 brew gdbm
 brew gettext
 brew git
+brew gnu-getopt
 brew go
 brew htop
+brew icdiff
 brew icu4c
 brew jpeg
 brew leiningen
@@ -34,17 +33,27 @@ brew libpng
 brew libssh2
 brew libxml2
 brew libyaml
-brew lua51
+brew lua@5.1
 brew mas
+brew maven
+brew maven-completion
 brew nvm
 brew openssl
+brew openssl@1.1
 brew pcre
+brew phantomjs
 brew pkg-config
 brew python
 brew python3
+brew rails-completion
+brew rake-completion
 brew readline
+brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
 brew ruby
+brew ruby-completion
 brew rust
+brew rustc-completion
+brew sdl2
 brew sqlite
 brew tmux
 brew unixodbc
@@ -53,23 +62,23 @@ brew wget
 brew xz
 
 tap homebrew/php
-brew php70
-brew php70-phalcon
-brew php70-xdebug
+brew php70 --with-thread-safety
+brew php70-pthreads
 
 tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 682658836 GarageBand (10.1.2)
-appstore 409183694 Keynote (7.0)
-appstore 539883307 LINE (4.10.0)
-appstore 409203825 Numbers (4.0)
-appstore 409201541 Pages (6.0)
-appstore 1003160018 Quip (4.8.15)
+appstore 682658836 GarageBand (10.1.6)
+appstore 409183694 Keynote (7.0.5)
+appstore 539883307 LINE (4.11.1)
+appstore 409203825 Numbers (4.0.5)
+appstore 823766827 OneDrive (17.3.6783)
+appstore 409201541 Pages (6.0.5)
+appstore 1003160018 Quip (5.0)
 appstore 1086818840 Rocket.Chat+ (1.3.1)
-appstore 803453959 Slack (2.0.3)
-appstore 747648890 Telegram (2.27)
+appstore 803453959 Slack (2.4.1)
+appstore 747648890 Telegram (2.30)
 appstore 425424353 The Unarchiver (3.11.1)
-appstore 497799835 Xcode (8.0)
-appstore 408981434 iMovie (10.1.2)
+appstore 497799835 Xcode (8.2.1)
+appstore 408981434 iMovie (10.1.4)
