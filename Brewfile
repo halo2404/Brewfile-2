@@ -27,13 +27,11 @@ brew htop
 brew icdiff
 brew icu4c
 brew jpeg
-brew leiningen
 brew libevent
 brew libpng
 brew libssh2
 brew libxml2
 brew libyaml
-brew lua@5.1
 brew mas
 brew maven
 brew maven-completion
@@ -41,7 +39,6 @@ brew nvm
 brew openssl
 brew openssl@1.1
 brew pcre
-brew phantomjs
 brew pkg-config
 brew python
 brew python3
@@ -62,8 +59,8 @@ brew wget
 brew xz
 
 tap homebrew/php
-brew php70 --with-thread-safety
-brew php70-pthreads
+brew php70
+brew php70-xdebug
 
 tap rcmdnk/file
 brew brew-file
